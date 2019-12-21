@@ -29,7 +29,8 @@
     </dependencies>
 
     <properties>
-        <start-class>com.dockerforjavadevelopers.hello.Application</start-class>
+   		 <java.version>1.8</java.version>
+         <start-class>com.dockerforjavadevelopers.hello.Application</start-class>
     </properties>
 
     <build>

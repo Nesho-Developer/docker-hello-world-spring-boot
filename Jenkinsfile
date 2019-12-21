@@ -22,7 +22,7 @@ node {
   
     stage('Build Project') {
       // build project via maven
-      sh "mvn -Dmaven.test.failure.ignore clean package"
+      bat "mvn -Dmaven.test.failure.ignore clean package"
     }
 	
 	stage('Publish Tests Results'){
